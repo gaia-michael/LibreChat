@@ -31,7 +31,7 @@ RUN npm run frontend
 RUN mkdir -p /app/client/public/images /app/api/logs
 
 # Node API setup
-EXPOSE 8080
+EXPOSE 3080
 ENV HOST=0.0.0.0
 CMD ["npm", "run", "backend"]
 
